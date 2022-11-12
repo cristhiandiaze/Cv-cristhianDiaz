@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4a4a4e;
+}   
+
+
+.encabezado{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.imagen-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-principal img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+.imagen-principal img:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nombre-encabezado{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nombre-encabezado:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.1,1.1);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.subtitulo-encabezado ul{
+    display: flex;
+    list-style:none;
+}
+
+.subtitulo-encabezado li:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.05,1.05);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+hr{
+    margin-left: 5%; 
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border-left: solid;
+    border-color: blueviolet;
+    border-width: 1px;
+}
+
+.padre{
+    display: flex;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+
+.experiencia{
+    margin-top: auto;
+}
+
+.experiencia h2{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.experiencia h2:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contenedor2{
+    display: flex;
+    margin: 3% 0 3% 0;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.contenedor2:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.puestos{
+    width: 20%;
+    padding: 0% 2% 0% 2%;
+}
+
+.puestos h3 {
+    font-size: 15px;
+}
+
+.empresas{
+    width: 20%;
+    padding: 0% 2% 0% 2%;
+}
+.empresas h5 {
+    font-size: 11px;
+}
+
+.descripcion{
+    width: 60%;
+    padding: 0% 2% 0% 2%;
+}
+
+.descripcion p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.aside{
+    padding: 0% 2% 0% 2%;
+    margin: 0% 0% 0% 1%;
+    border-left: solid;
+    border-color: blueviolet;
+    border-width: 1px;
+}
+
+.formacion {
+    margin: 0% 0% 10% 0%;
+    padding: 5%;
+    background: #d1d1d4;
+    border-radius: 10px;
+}
+
+.formacion h3:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.estudios{
+    margin-top: 5%;
+}
+
+.estudios:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.estudios h4 {
+    font-size: 14px;
+    font-weight:900;
+}
+
+.estudios p{
+    font-size: 13px;
+}
+
+.habilidades{
+    margin: 0% 0% 10% 0%;
+    padding: 5%;
+    background: #d1d1d4;
+    border-radius: 10px;
+}
+
+.habilidades h4{
+    font-size: 14px;
+    font-weight:900;
+    margin-bottom: 3%;
+}
+
+.habilidades h4:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.habilidades p{
+    font-size: 13px;
+}
+
+.habilidades p:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.habilidades ul{
+    list-style: none;
+}
+
+.habilidades li{
+    font-size: 13px;
+}
+
+.habilidades li:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contacto{
+    padding: 5%;
+    background: #d1d1d4;
+    border-radius: 10px;
+}
+
+.contacto h4 {
+    font-size: 19px;
+    font-weight:900;
+    color: blueviolet;
+}
+
+.contacto h4:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.correo {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.correo h3{
+    font-size: 15px;
+    font-weight:900;
+}
+
+.correo h3:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.correo p{
+    font-size: 13px;
+    font-weight:bold;
+    color: blueviolet;
+}
+
+.correo p:hover{
+    cursor: pointer;
+    color: #4a4a4e;
+    transform: scale(1.1,1.1);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.numero {
+    font-size: 15px;
+    font-weight:900;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.numero h3{
+    font-size: 15px;
+    font-weight:900;
+}
+
+.numero h3:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.numero p{
+    font-size: 13px;
+    font-weight:bold;
+    color: blueviolet;
+}
+
+.numero p:hover{
+    cursor: pointer;
+    color: #4a4a4e;
+    transform: scale(1.1,1.1);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.ContenedorPortafolio{
+    padding: 0% 5% 0% 5%;
+}
+
+.ContenedorPortafolio h2{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.ContenedorPortafolio h2:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.portafolio {
+    margin: 0% 15% 0% 15%;
+}
+.contenedor1{
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    margin: 3% 0% 5% 0%;
+}
+
+.contenedor1 h3 {
+    font-size: 15px;
+    padding: 5%;
+    display: inline-block;
+}
+
+.contenedor1 h3:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contenedor1 p{
+    text-align: justify;
+    padding: 0% 10% 0% 10%;
+    font-size: 14px;
+}
+
+.contenedor1 p:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.01,1.01);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contenedor1 img{
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    object-fit: scale-down;
+}
+
+.contenedor3{
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    margin: 3% 0% 5% 0%;
+}
+
+.contenedor3 h3 {
+    font-size: 15px;
+    padding: 5%;
+    display: inline-block;
+}
+
+.contenedor3 h3:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.03,1.03);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contenedor3 p{
+    text-align: justify;
+    padding: 0% 10% 0% 10%;
+    font-size: 14px;
+}
+
+.contenedor3 p:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transform: scale(1.01,1.01);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contenedor3 img{
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    object-fit: scale-down;
+}
+
+.contenedorbotones{
+    display: flex;
+    justify-content:space-around;
+    margin: 3% 15% 3% 15%;
+}
+
+.botones{
+    font-size: 40px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    color: blueviolet;
+}
+
+.atras{
+    left: 2%;
+    top: calc(30% - 30px);
+}
+
+.adelante{
+    right: 2%;
+    top: calc(30% - 30px);
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Small Smartphones ---------*/
+@media only screen and (max-width : 480px) { 
+body{
+    width: auto;
+    margin: auto;
+} 
+
+.encabezado{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.imagen-principal img{
+    width: 150px;
+    height: 150px;
+}
+
+.nombre-encabezado{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.nombre-encabezado h1{
+    font-size: 20px;
+}
+
+
+.subtitulo-encabezado ul{
+    display: grid;
+}
+
+.subtitulo-encabezado li{
+    font-size: 13px;
+}
+
+.padre{
+    display: grid;
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+}
+
+.experiencia h2{
+    font-size: 15px;
+}
+
+.contenedor2{
+    display: grid;
+}
+
+.puestos{
+    width: 100%;
+    margin: 3% 0% 3% 0%;
+}
+
+.puestos h3 {
+    font-size: 14px;
+}
+
+.empresas{
+    width: 100%;
+    margin: 3% 2% 3% 2%;
+}
+
+.empresas h5 {
+    font-size: 10px;
+}
+
+.descripcion{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.descripcion p{
+    text-align: justify;
+    font-size: 12px;
+    margin-bottom: 10%;
+}
+
+.aside{
+    padding: 5% 0% 0% 0%;
+    margin: 3% 0% 3% 0%;
+    border-left: none;
+    border-top: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+}
+
+.formacion {
+    margin: 5% 0% 5% 0%;
+    padding: 5%;
+}
+
+.formacion h3 {
+    font-size: 16px;
+}
+
+.estudios h4 {
+    font-size: 12px;
+}
+
+.estudios p{
+    font-size: 11px;
+}
+
+.habilidades{
+    margin: 5% 0% 5% 0%;
+}
+
+.habilidades h4{
+    font-size: 16px;;
+}
+
+.habilidades p{
+    font-size: 11px;
+}
+
+.habilidades li{
+    font-size: 13px;
+}
+
+.ContenedorPortafolio{
+    padding: auto;
+    margin: auto;
+}
+.portafolio {
+    padding: auto;
+    margin: auto;
+}
+
+.contenedor1{
+    
+    display:grid;
+    justify-content: center;
+    width: 100%;;
+}
+
+.contenedor1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor1 p{
+    text-align: justify;
+    padding: 5% 10% 5% 10%;
+    font-size: 14px;
+}
+
+.contenedor3{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor3 img{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor3 p{
+    text-align: justify;
+    padding: 5% 10% 5% 10%;
+    font-size: 14px;
+}
+
+.contenedorimagenes{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes2{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes3{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes4{
+    display:grid;
+    justify-content: center;
+}
+
+}
+
+/* Smartphones ----------- */
+@media only screen and (min-width : 481px) and (max-width : 767px){
+body{
+    width: auto;
+    margin: auto;
+} 
+
+.encabezado{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.imagen-principal img{
+    width: 180px;
+    height: 180px;
+}
+
+.nombre-encabezado{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.nombre-encabezado h1{
+    font-size: 25px;
+}
+
+.subtitulo-encabezado li{
+    font-size: 16px;
+}
+
+.padre{
+    display: grid;
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+}
+
+.experiencia h2{
+    font-size: 17px;
+}
+
+.contenedor2{
+    display: grid;
+}
+
+.puestos{
+    width: 100%;
+    margin: 1% 0% 1% 0%;
+}
+
+.puestos h3 {
+    font-size: 16px;
+}
+
+.empresas{
+    width: 100%;
+    margin: 1% 2% 1% 2%;
+}
+
+.empresas h5 {
+    font-size: 12px;
+}
+
+.descripcion{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.descripcion p{
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: 0%;
+}
+
+.aside{
+    padding: 0%
+    margin: 3% 0% 3% 0%;
+    border-left: none;
+    border-top: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+}
+
+.formacion {
+    margin: 3% 0% 0% 0%;
+    padding: 5%;
+}
+
+.formacion h3 {
+    font-size: 18px;
+}
+
+.estudios h4 {
+    font-size: 14px;
+}
+
+.estudios p{
+    font-size: 13px;
+}
+
+.habilidades{
+    margin: 3% 0% 3% 0%;
+}
+
+.habilidades h4{
+    font-size: 18px;;
+}
+
+.habilidades p{
+    font-size: 13px;
+}
+
+.habilidades li{
+    font-size: 13px;
+}
+
+.correo {
+    margin-top: 2%;
+}
+
+.numero {
+    margin-top: 2%;
+}
+.ContenedorPortafolio{
+    padding: auto;
+    margin: auto;
+}
+.portafolio {
+    padding: auto;
+    margin: auto;
+}
+
+.contenedor1{
+    display:grid;
+    justify-content: center;
+    width: 100%;;
+}
+
+.contenedor1 h3 {
+    font-size: 15px;
+    padding: 2%;
+    display: inline-block;
+}
+
+.contenedor1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor1 p{
+    text-align: justify;
+    padding: 3% 10% 3% 10%;
+    font-size: 14px;
+}
+
+.contenedor3{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor3 img{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor3 p{
+    text-align: justify;
+    padding: 3% 10% 3% 10%;
+    font-size: 14px;
+}
+
+.contenedorimagenes{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes2{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes3{
+    display:grid;
+    justify-content: center;
+}
+.contenedorimagenes4{
+    display:grid;
+    justify-content: center;
+}
+
+}
+
+/* tablets ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) { 
+
+    .padre{
+        display: grid;
+        width: 90%;
+        margin: 2% 5% 2% 5%;
+    }
+
+
+    .encabezado{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .imagen-principal img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .nombre-encabezado{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .nombre-encabezado h1{
+        font-size: 25px;
+    }
+    
+    .subtitulo-encabezado li{
+        font-size: 16px;
+    }
+    
+    .padre{
+        display: grid;
+        width: 90%;
+        margin: 3% 5% 3% 5%;
+    }
+    
+    .aside{
+        padding: 0%
+        margin: 3% 0% 3% 0%;
+        border-left: none;
+        border-top: solid;
+        border-color: blueviolet;
+        border-width: 2px;
+    }
+    
+    .formacion {
+        margin: 3% 0% 0% 0%;
+        padding: 5%;
+    }
+    
+    .formacion h3 {
+        font-size: 18px;
+    }
+    
+    .estudios h4 {
+        font-size: 14px;
+    }
+    
+    .estudios p{
+        font-size: 13px;
+    }
+    
+    .habilidades{
+        margin: 3% 0% 3% 0%;
+    }
+    
+    .habilidades h4{
+        font-size: 18px;;
+    }
+    
+    .habilidades p{
+        font-size: 13px;
+    }
+    
+    .habilidades li{
+        font-size: 13px;
+    }
+    
+    .correo {
+        margin-top: 2%;
+    }
+    
+    .numero {
+        margin-top: 2%;
+    }
+    .ContenedorPortafolio{
+        padding: auto;
+        margin: auto;
+    }
+    .portafolio {
+        padding: auto;
+        margin: auto;
+    }
+    
+    .contenedor1{
+        display:grid;
+        justify-content: center;
+        width: 100%;;
+    }
+    
+    .contenedor1 h3 {
+        font-size: 15px;
+        padding: 2%;
+        display: inline-block;
+    }
+    
+    .contenedor1 img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .contenedor1 p{
+        text-align: justify;
+        padding: 3% 10% 3% 10%;
+        font-size: 14px;
+    }
+    
+    .contenedor3{
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .contenedor3 img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .contenedor3 p{
+        text-align: justify;
+        padding: 3% 10% 3% 10%;
+        font-size: 14px;
+    }
+    
+    .contenedorimagenes{
+        display:grid;
+        justify-content: center;
+    }
+    .contenedorimagenes2{
+        display:grid;
+        justify-content: center;
+    }
+    .contenedorimagenes3{
+        display:grid;
+        justify-content: center;
+    }
+    .contenedorimagenes4{
+        display:grid;
+        justify-content: center;
+    }
+    
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1280px) { }
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1280px) { }
